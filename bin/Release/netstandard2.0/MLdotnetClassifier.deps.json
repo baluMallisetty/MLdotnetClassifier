@@ -9,6 +9,7 @@
     ".NETStandard,Version=v2.0/": {
       "MLdotnetClassifier/1.0.0": {
         "dependencies": {
+          "ILMerge": "3.0.41",
           "Microsoft.ML": "1.7.0",
           "NETStandard.Library": "2.0.3"
         },
@@ -16,6 +17,7 @@
           "MLdotnetClassifier.dll": {}
         }
       },
+      "ILMerge/3.0.41": {},
       "Microsoft.CSharp/4.3.0": {
         "dependencies": {
           "System.Collections": "4.3.0",
@@ -677,6 +679,13 @@
       "type": "project",
       "serviceable": false,
       "sha512": ""
+    },
+    "ILMerge/3.0.41": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-u9n45xs40bSGoNFcmMYJkh3zkGYKR4BqzQaX2uHc2Ay4drdiQOTeo/1ECps3ttDXOu4Q6qbTnsIbQWb/06ShqA==",
+      "path": "ilmerge/3.0.41",
+      "hashPath": "ilmerge.3.0.41.nupkg.sha512"
     },
     "Microsoft.CSharp/4.3.0": {
       "type": "package",
